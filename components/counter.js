@@ -16,5 +16,4 @@ export const Counter = () => {
     let count = document.querySelector('.countElem'); 
 
     Calculate({countElem, inc , dec, count});
-
 }
