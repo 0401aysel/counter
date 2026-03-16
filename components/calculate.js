@@ -1,13 +1,13 @@
-const Calculate = ( {countElem, inc , dec, count } ) => {
+const Calculate = ( {currentValue = 0, inc , dec, count } ) => {
 
     inc.addEventListener('click',()=>{
-        countElem++;
-        count.innerText = countElem;
+        currentValue++;
+        count.innerText = currentValue;
     }); 
 
     dec.addEventListener('click',()=>{
-        countElem--;
-        count.innerText = countElem;
+        currentValue--;
+        count.innerText = currentValue;
     }); 
 
 }
